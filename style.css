@@ -1,0 +1,199 @@
+.background-orange {
+  background-color: orange;
+}
+.background-red {
+  background-color: red;
+}
+.background-pink {
+  background-color: pink;
+}
+.background-blue {
+  background-color: blue;
+}
+.background-yellow {
+  background-color: yellow;
+}
+
+.noBackground {
+  background-color: none;
+}
+.background-yellow::after{
+  content:"this is yellow";
+  display:flex;
+  position:fixed;
+  text-align: center;
+  left:35%;
+  top: 45%;
+  font-size: 5rem;
+
+}
+
+
+.background-orange::after{
+  content:"this is orange";
+  display:flex;
+  position:fixed;
+  text-align: center;
+  left:35%;
+  top: 45%;
+  font-size: 5rem;
+
+}
+.background-pink::after{
+  content:"this is pink";
+  display:flex;
+  position:fixed;
+  text-align: center;
+  left:35%;
+  top: 45%;
+  font-size: 5rem;
+
+}
+.background-blue::after{
+  content:"this is blue";
+  display:flex;
+  position:fixed;
+  text-align: center;
+  left:35%;
+  top: 45%;
+  font-size: 5rem;
+
+}
+.background-red::after{
+  content:"this is red";
+  display:flex;
+  position:fixed;
+  text-align: center;
+  left:35%;
+  top: 45%;
+  font-size: 5rem;
+
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+.ham {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  left: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border: black solid 1px;
+  cursor: pointer;
+}
+.xIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 1;
+  bottom: 1;
+  width: 38%;
+  height: 40%;
+  background: rgb(10, 2, 2);
+  color: rgb(0, 0, 0);
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding-top: 2rem;
+  border-radius: 0 0 10px 0;
+}
+
+.showMenu {
+  transform: translateY(0);
+  transition: ease-in-out 0.8s;
+}
+
+li {
+  padding:1rem 0;
+}
+.menuLink {
+  display: block;
+  font-size: 2rem;
+  color: rgb(5, 4, 4);
+  text-decoration: none;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.menuLink:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.make-pink:hover {
+  background: pink;
+  cursor: pointer;
+}
+.make-red:hover {
+  background: red;
+  cursor: pointer;
+}
+.make-blue:hover {
+  background: blue;
+  cursor: pointer;
+}
+.make-yellow:hover {
+  background: yellow;
+  cursor: pointer;
+}
+.make-orange:hover {
+  background: orange;
+  cursor: pointer;
+}
+.clear:hover {
+  background: white;
+  cursor:cell;
+}
+.make-red {
+ 
+  position:absolute;
+  width: 30vw;
+  height: 2rem;
+  background: rgb(240, 90, 90);
+  overflow: hidden;
+  margin-right: 20px;
+}
+.make-blue {
+  
+  position:absolute;
+  width: 30vw;
+  height: 2rem;
+  background: rgb(133, 133, 201);
+}
+.make-orange {
+  
+  position:absolute;
+  width: 30vw;
+  height: 2rem;
+  background: coral;
+}
+.make-pink {
+  position:absolute;
+  width: 30vw;
+  height: 2rem;
+  background: rgb(235, 100, 122);
+}
+.make-yellow {
+  position:absolute;
+  width: 30vw;
+  height: 2rem;
+  background: rgb(247, 247, 176);
+}
+.clear{
+  
+  position:absolute;
+  width: 100px;
+  height: 2rem;
+  background: rgb(247, 247, 176);
+  width: 30vw;
+}
